@@ -18,5 +18,8 @@ h1{
     padding: 5px;
     border-radius: 2px;
     text-decoration: none;
-    
+}
+
+#main-nav .featured {
+    background-color: orange
 }
