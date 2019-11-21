@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 h1{
     color: #2f4f4f;
 }
@@ -20,6 +24,23 @@ h1{
     text-decoration: none;
 }
 
-a.featured {
+.nav .featured {
     background-color: orange
+}
+
+a:link {
+    color: blue
+}
+
+.footer{
+    color: #666;
+    background-color: #ccc;
+    padding: 15px, 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a{
+    color: inherit;
+    text-decoration: underline;
 }
