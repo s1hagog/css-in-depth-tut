@@ -25,7 +25,8 @@ body * + * {
 .site-nav{
     display: flex;
     list-style-type: none;
-    padding-left: 0;
+    padding: 1em .5em;
+    border-radius: .2em;
     background-color: #5f4b44;
 }
 
@@ -37,4 +38,17 @@ body * + * {
     background-color: #cc6b5a;
     color: #ffffff;
     text-decoration: none;
+    padding: .5em 1em;
+}
+
+.site-nav > li > a:hover{
+    background-color: #bc6b5a;
+}
+
+.site-nav > li + li {
+    margin-left: 1.5em;
+}
+
+.site-nav .nav-right {
+    margin-left: auto;
 }
