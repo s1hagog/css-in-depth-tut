@@ -81,6 +81,7 @@ a:link {
 }
 
 .panel {
+    margin: 1em 0;
     padding: 1em;
     border-radius: 0.5em;
     border: 1px solid #999;
@@ -91,4 +92,8 @@ a:link {
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2rem;
 }
