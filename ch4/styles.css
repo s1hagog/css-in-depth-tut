@@ -38,14 +38,34 @@ header {
 
 .media {
     float: left;
-    width: 50%;
+    width: calc(50% - 1.5em);
+    margin: 0 1.5em 1.5em 0;
     padding: 1.5em;
     background-color: #eee;
     border-radius: .5em;
+}
+
+.media:nth-child(even){
+    clear:left;
 }
 
 .clearfix::after{
     display: block;
     content: ' ';
     clear: both;
+}
+
+.media-image {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.media-body {
+    margin-top: 0;
+
+    overflow: auto;
+}
+
+.media-body h3{
+    margin-top: 0;
 }
